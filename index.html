@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Coding By Doing</title>
+		<link  rel="stylesheet" type="text/css" href="style.css">
+		
+	</head>
+	<body>
+		<p> Wanna see something cool?</p>
+		<p id="par2"> What You Type in the box below, will show up here!</p>
+
+		<input type="text" id="userInput">
+
+		<button onclick="myFunc('userInput')">click me</button>
+		<script>
+			
+
+			function myFunc(inputId) {
+
+			//this stores the value of the input box to a variable
+
+				var textValue = document.getElementById(inputId).value;
+
+				//this changes the innerHTML of par2 to be equal to textValue
+
+				document.getElementById("par2").innerHTML = textValue;
+			}
+
+			</script>
+	</body>
+</html>

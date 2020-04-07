@@ -1,0 +1,15 @@
+p{
+  width:100%;
+  color:black;
+  font-family: lato;
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 3px 4px pink;
+}
+.container{
+  text-align: center;
+  padding-top: 40px;
+}
+
+
+
