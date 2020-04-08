@@ -1,0 +1,16 @@
+{
+  "name": "coding-by-doing",
+  "version": "0.0.1",
+  "description": "a series of coding projects",
+  "main": "index.js",
+  "repository": "https://github.com/bertolorian/coding-by-doing.git",
+  "author": "all of us",
+  "license": "MIT",
+  "scripts": {
+    "serve": "live-server . --wait 500"
+  },
+  "devDependencies": {
+    "http-server": "^0.10.0",
+    "live-server": "^1.2.1"
+  }
+}
